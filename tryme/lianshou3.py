@@ -26,3 +26,8 @@ for i in range(0, 3):
             match_list.append(tuple([team_jia[2], team_yi[0]]))
             if ('c', 'x') not in match_list and ('c', 'z') not in match_list :
                 print("比赛顺序为:", match_list, '.')
+
+# list1=[0,1,2,3,4,5,6]
+# for i in range(len(list1)):
+#     print (list1.pop())
+#     print (list1)
